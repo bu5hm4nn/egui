@@ -14,7 +14,7 @@ pub(crate) mod window;
 
 pub use {
     area::Area,
-    collapsing_header::{CollapsingHeader, CollapsingResponse},
+    collapsing_header::{CollapsingHeader, CollapsingResponse, CollapsingState},
     combo_box::*,
     frame::Frame,
     panel::{CentralPanel, SidePanel, TopBottomPanel},
